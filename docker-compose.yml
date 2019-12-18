@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  standalone-chrome:
+    image: selenium/standalone-chrome:2.53.1
+    container_name: standalone-chrome
+    ports:
+      - 4444:4444
